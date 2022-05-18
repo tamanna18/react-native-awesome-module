@@ -17,6 +17,6 @@ const AwesomeModule = NativeModules.AwesomeModule
       }
     );
 
-export function multiply(a: number, b: number): number {
-  return a * b;
+export function multiply(a: number, b: number): Promise<number> {
+  return AwesomeModule.multiply(a, b);
 }
