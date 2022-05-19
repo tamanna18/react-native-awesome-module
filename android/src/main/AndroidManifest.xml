@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.reactnativeawesomemodule">
 
+  <activity
+    android:name=".NavigationDrawerActivity"
+    android:label="@string/title_activity_navigation_drawer"
+    android:theme="@style/AppTheme.NoActionBar"></activity>
 </manifest>
