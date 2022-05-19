@@ -8,7 +8,10 @@ buildscript {
 
         dependencies {
             classpath 'com.android.tools.build:gradle:3.5.3'
-            implementation 'com.google.android.material:material:1.0.0'
+      implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+      implementation 'com.google.android.material:material:1.0.0'
+      implementation 'androidx.appcompat:appcompat:1.0.2'
+      implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
         }
     }
