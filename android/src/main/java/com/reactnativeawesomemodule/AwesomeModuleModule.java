@@ -42,7 +42,6 @@ public class AwesomeModuleModule extends ReactContextBaseJavaModule {
     public static native int nativeMultiply(int a, int b);
 
   @Nonnull
-  @Override
   public List<NativeModule> createNativeModules(@Nonnull ReactApplicationContext reactContext) {
     List <NativeModule> modules = new ArrayList();
     modules.add(new TestModule(reactContext));
@@ -50,7 +49,6 @@ public class AwesomeModuleModule extends ReactContextBaseJavaModule {
     return modules;
   }
   @Nonnull
-  @Override
   public List<ViewManager> createViewManagers(@Nonnull ReactApplicationContext reactContext) {
     return Collections.emptyList();
   }
