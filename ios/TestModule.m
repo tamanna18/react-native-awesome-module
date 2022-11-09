@@ -1,13 +1,13 @@
-#import <React/RCTBridgeModule.h>
+#import "TestModule.h"
 
-@interface RCT_EXTERN_MODULE(TestModule, NSObject)
-
-RCT_EXPORT_MODULE(TestModule);
+@implementation TestModule
 
 RCT_EXTERN_METHOD(multiply:(float)a withB:(float)b
                  withResolver:(RCTPromiseResolveBlock)resolve
                  withRejecter:(RCTPromiseRejectBlock)reject)
 
 RCT_EXTERN_METHOD(NavigateMe: (void))
+
+RCT_EXPORT_MODULE();
 
 @end

@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0A5279CF291C69B600CAF6BC /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		0A5279D0291C69B600CAF6BC /* TestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestController.xib; sourceTree = "<group>"; };
+		0A5279D2291C754200CAF6BC /* TestModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModule.h; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libTestModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5891CC2AC0600A0062D /* TestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModule.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 				0A5279D0291C69B600CAF6BC /* TestController.xib */,
 				F4FF95D6245B92E800C19C63 /* TestModule.swift */,
 				B3E7B5891CC2AC0600A0062D /* TestModule.m */,
+				0A5279D2291C754200CAF6BC /* TestModule.h */,
 				F4FF95D5245B92E700C19C63 /* Test-Bridging-Header.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
