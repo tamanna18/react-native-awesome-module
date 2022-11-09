@@ -1,4 +1,3 @@
-import TestController
 @objc(TestModule)
 class TestModule: NSObject {
 

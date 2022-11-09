@@ -2,6 +2,8 @@
 
 @interface RCT_EXTERN_MODULE(TestModule, NSObject)
 
+RCT_EXPORT_MODULE(TestModule);
+
 RCT_EXTERN_METHOD(multiply:(float)a withB:(float)b
                  withResolver:(RCTPromiseResolveBlock)resolve
                  withRejecter:(RCTPromiseRejectBlock)reject)
