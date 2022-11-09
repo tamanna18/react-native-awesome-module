@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* AwesomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AwesomeModule.m */; };
-		F4FF95D7245B92E800C19C63 /*  AwesomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  AwesomeModule.swift */; };
-
+		0A5279D1291C69B600CAF6BC /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5279CF291C69B600CAF6BC /* TestController.swift */; };
+		F4FF95D7245B92E800C19C63 /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* TestModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,12 +24,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libAwesomeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAwesomeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
-		B3E7B5891CC2AC0600A0062D /* AwesomeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeModule.m; sourceTree = "<group>"; };
-		F4FF95D5245B92E700C19C63 /* AwesomeModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AwesomeModule-Bridging-Header.h"; sourceTree = "<group>"; };
-		F4FF95D6245B92E800C19C63 /* AwesomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeModule.swift; sourceTree = "<group>"; };
-
+		0A5279CF291C69B600CAF6BC /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		0A5279D0291C69B600CAF6BC /* TestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestController.xib; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libTestModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7B5891CC2AC0600A0062D /* TestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModule.m; sourceTree = "<group>"; };
+		F4FF95D5245B92E700C19C63 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4FF95D6245B92E800C19C63 /* TestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libAwesomeModule.a */,
+				134814201AA4EA6300B7C361 /* libTestModule.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,11 +54,11 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
-				F4FF95D6245B92E800C19C63 /* AwesomeModule.swift */,
-				B3E7B5891CC2AC0600A0062D /* AwesomeModule.m */,
-				F4FF95D5245B92E700C19C63 /* AwesomeModule-Bridging-Header.h */,
-
+				0A5279CF291C69B600CAF6BC /* TestController.swift */,
+				0A5279D0291C69B600CAF6BC /* TestController.xib */,
+				F4FF95D6245B92E800C19C63 /* TestModule.swift */,
+				B3E7B5891CC2AC0600A0062D /* TestModule.m */,
+				F4FF95D5245B92E700C19C63 /* Test-Bridging-Header.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* AwesomeModule */ = {
+		58B511DA1A9E6C8500147676 /* TestModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AwesomeModule" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "TestModule" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -80,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = AwesomeModule;
+			name = TestModule;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libAwesomeModule.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libTestModule.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AwesomeModule" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "TestModule" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* AwesomeModule */,
+				58B511DA1A9E6C8500147676 /* TestModule */,
 			);
 		};
 /* End PBXProject section */
@@ -122,10 +120,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-				F4FF95D7245B92E800C19C63 /* AwesomeModule.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* AwesomeModule.m in Sources */,
-
+				F4FF95D7245B92E800C19C63 /* TestModule.swift in Sources */,
+				0A5279D1291C69B600CAF6BC /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,13 +232,11 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AwesomeModule;
+				PRODUCT_NAME = TestModule;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "AwesomeModule-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Debug;
 		};
@@ -257,19 +251,17 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AwesomeModule;
+				PRODUCT_NAME = TestModule;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "AwesomeModule-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AwesomeModule" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "TestModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -278,7 +270,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AwesomeModule" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "TestModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
