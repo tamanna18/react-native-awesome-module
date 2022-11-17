@@ -7,8 +7,8 @@ class TestModule: NSObject {
     }
 
     @objc(NavigateMe)
-    func NavigateMe() -> void {
+    func NavigateMe() -> Void {
         let vc = TestController(nibName: "TestController", bundle: nil)
-        self.present(vc, animated: true)
+        vc.present(vc, animated: true)
     }
 }
